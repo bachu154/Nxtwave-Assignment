@@ -14,7 +14,7 @@ Any changes you make to your deployed app will be automatically pushed to this r
 
 Your project is live at:
 
-**[https://vercel.com/s47875507-8155s-projects/v0-simple-contact-form](https://vercel.com/s47875507-8155s-projects/v0-simple-contact-form)**
+https://preview-simple-contact-form-kzmq33le9yv1lemykhv2.vusercontent.net/
 
 ## Build your app
 
