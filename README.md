@@ -1,30 +1,66 @@
-# Simple contact form
+# 📊 NxtWave Marketing Automations Specialist Assignment
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+This repository contains the completed work for the **NxtWave Marketing Automations Specialist Assignment**, which includes three tasks:
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/s47875507-8155s-projects/v0-simple-contact-form)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/E711cIdCcNk)
+1. ✅ Omnichannel Lead Nurturing Workflow  
+2. ✅ Lead Qualification Chatbot using SwiftSell  
+3. ✅ Tool Integration using Make.com
 
-## Overview
+---
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## 📁 Table of Contents
 
-## Deployment
+- [Task 1: Lead Nurturing Workflow](#task-1-lead-nurturing-workflow)
+- [Task 2: Chatbot Setup with SwiftSell](#task-2-chatbot-setup-with-swiftsell)
+- [Task 3: Form + Make.com Integration](#task-3-form--makecom-integration)
+- [Final Notes](#final-notes)
 
-Your project is live at:
+---
 
-https://preview-simple-contact-form-kzmq33le9yv1lemykhv2.vusercontent.net/
+## ✅ Task 1: Lead Nurturing Workflow
 
-## Build your app
+> **Objective**: Design a lead nurturing journey using diagrams.net for users who haven’t completed their profile.
 
-Continue building your app on:
+### 🔗 Flowchart Link  
+[View Lead Nurturing Workflow Diagram](https://app.diagrams.net/#your-diagram-link-here)
 
-**[https://v0.dev/chat/projects/E711cIdCcNk](https://v0.dev/chat/projects/E711cIdCcNk)**
+### 📝 Summary  
+- Day 0: Welcome messages sent via WhatsApp, SMS, and Email.  
+- Day 1: Check profile status.  
+  - If completed → Send congratulatory message and exit.  
+  - If not → Enter 3-day reminder loop.  
+- Day 1–3:  
+  - WhatsApp Reminder → If delivered, wait 24 hrs → Recheck.  
+  - If not delivered → Send SMS fallback.  
+- After Day 3: Final reminder via Email → End workflow.
 
-## How It Works
+---
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## ✅ Task 2: Chatbot Setup with SwiftSell
+
+> **Objective**: Build a lead qualification chatbot for NxtWave’s Free Career Kickstarter Webinar.
+
+### 🔗 Bot Preview Link  
+[Open Chatbot in SwiftSell](https://app.swiftsell.biz/#your-bot-link-here)
+
+### 📦 Features Implemented  
+- Collects: Name, Phone, Email  
+- Asks qualifying questions:
+  - Student/Working
+  - Tech/Non-Tech
+  - Career Path
+  - Readiness  
+- Conditional responses based on user input  
+- Graceful exit for uninterested users  
+- Sends qualified leads in the following JSON format:
+
+```json
+{
+  "name": "Example User",
+  "email": "example@example.com",
+  "phone": "9876543210",
+  "status": "Hot Lead",
+  "careerPath": "Data Science",
+  "source": "Webinar Bot"
+}
+
